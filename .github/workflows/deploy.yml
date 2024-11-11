@@ -23,6 +23,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: Part3/exercise3.1/express-app/
+          context: ./express-app
           push: true
           tags: borisbanchev03/express-app:latest
